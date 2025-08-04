@@ -28,7 +28,7 @@ NestJS-based backend for phishing campaign management.
 
 - User registration and login (with JWT authentication)
 - Sending phishing attempts by calling an external simulator service
-- Retrieving attempt history per user
+- Retrieving the attempt history
 
 ## API Endpoints
 
@@ -79,16 +79,6 @@ npm run test:e2e
 
 # Test coverage
 npm run test:cov
-```
-
-## Deployment
-
-To deploy your application efficiently, follow the [NestJS deployment guide](https://docs.nestjs.com/deployment).  
-You may also use [NestJS Mau](https://mau.nestjs.com) to deploy quickly to AWS:
-
-```bash
-npm install -g @nestjs/mau
-mau deploy
 ```
 
 ---
